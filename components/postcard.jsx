@@ -8,6 +8,6 @@ export default function PostCard({ title, date, snippet, slug }) {
       </a>
     </h3>
     <p>{snippet}</p>
-    <span className="text-sm text-gray-600 font">{date}</span>
+    <span className="text-sm text-gray-600">{date}</span>
   </div>;
 }
